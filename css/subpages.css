@@ -1,0 +1,31 @@
+h1 {
+	font-family: Courier;
+	font-size: 200%;
+	color: #FBFBFB;
+	text-align: center;
+	padding-top: 6%;
+}
+
+.Other_Heads{
+	background-image: url(1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Basic_Heading{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
+.inner_header{
+	text-align: center;
+}
+
+.inner_content{
+	text-align: center;
+}

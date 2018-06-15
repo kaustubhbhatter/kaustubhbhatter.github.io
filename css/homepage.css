@@ -1,0 +1,34 @@
+h1 {
+	font-family: Courier;
+	font-size: 200%;
+	color: #FBFBFB;
+	text-align: center;
+}
+
+#foot_Text {
+	text-align: center;
+	font-family: fantasy;
+	font-size: small;
+}
+
+#Main_Head{
+	background-image: url('1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#My_Photo{
+	padding-top: 8%;
+	width: 150px;
+	height: 160px;
+}
+
+#Basic_Intro{
+	width: 100%;
+	text-align: center;
+	font-size: large;
+	font-family: Times New Roman;
+}
