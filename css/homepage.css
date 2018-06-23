@@ -1,36 +1,42 @@
+body { 
+  margin:0;
+}
+
 h1 {
 	font-family: Courier;
-	font-size: 200%;
-	color: #FBFBFB;
+	font-size: 6vh;
+	color: #d3d3d3;
 	text-align: center;
+}
+
+#Main_Body_Home {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #d3d3d3;
+  padding-top: 2.5vh;
 }
 
 #foot_Text {
 	text-align: center;
-	font-family: fantasy;
+	font-family: Verdana;
 	font-size: small;
+  color: #d3d3d3;
 }
 
 #Main_Head{
 	background-image: url('1.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 160%;
+  background-size: cover;
+	height: 75vh;
 	text-align: center;
 	vertical-align: middle;
 }
 
 #My_Photo{
 	padding-top: 8%;
-	width: 150px;
-	height: 160px;
-}
-
-#Basic_Intro{
-	width: 100%;
-	text-align: center;
-	font-size: large;
-	font-family: Times New Roman;
+	width: auto;
+	height: 25vh;
 }
 
 .topnav {
@@ -45,7 +51,7 @@ h1 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 2.5vh 3vw;
 }
 
 .topnav a:hover {
@@ -60,6 +66,14 @@ h1 {
 
 .topnav .icon {
     display: none;
+}
+
+#Basic_Intro{
+  width: 100%;
+  text-align: center;
+  font-size: 3vh ;
+  color: #d3d3d3;
+  font-family: Times New Roman;
 }
 
 @media screen and (max-width: 830px) {
@@ -79,5 +93,10 @@ h1 {
     display: block;
     text-align: left;
   }
+}
 
+@media screen and (max-height: 500px){
+  #Basic_Intro{
+    font-size: 15px;
+  }
 }
