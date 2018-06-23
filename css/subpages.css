@@ -1,37 +1,47 @@
+html, body{
+        margin: 0;
+    }
+
 h1 {
 	font-family: Courier;
-	font-size: 200%;
+	font-size: 6vh;
 	color: #FBFBFB;
 	text-align: center;
 	padding-top: 6%;
+  margin: 0;
 }
 
 .Other_Heads{
 	background-image: url(1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 200px;
+	height: 35vh;
 	text-align: center;
 	vertical-align: middle;
 }
 
 .Basic_Heading{
 	width: 100%;
+  position: relative;
 	text-align: center;
 	font-size: 20px;
 	font-family: Times New Roman;
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 55vh;
   padding-top: 2.5vh;
   color: #d3d3d3;
 }
 
 #foot_Text {
-  text-align: center;
+  width: 100%;
+  position: absolute;
   font-family: Verdana;
   font-size: small;
   color: #d3d3d3;
+  bottom: 0;
+  text-align: center;
 }
 
 .inner_header{
@@ -50,11 +60,11 @@ h1 {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #d3d3d3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 3vh;
 }
 
 .topnav a:hover {
@@ -77,6 +87,9 @@ h1 {
     float: right;
     display: block;
   }
+  .topnav a{
+    font-size: 15px;
+  }
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -87,5 +100,11 @@ h1 {
     float: none;
     display: block;
     text-align: left;
+  }
+}
+
+@media screen and (max-height: 500px){
+  #Basic_Heading{
+    font-size: 15px;
   }
 }
