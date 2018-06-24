@@ -18,7 +18,6 @@ h1 {
   background-size: cover;
   height: 75vh;
   text-align: center;
-  vertical-align: middle;
 }
 
 #Main_Body_Home {
@@ -37,7 +36,7 @@ h1 {
 }
 
 #My_Photo{
-	padding-top: 5%;
+	padding-top: 15vh;
 	width: auto;
 	height: 25vh;
 }
@@ -51,16 +50,15 @@ h1 {
   font-family: Times New Roman;
 }
 #links_div{
-  position: relative;
   text-align: center;
   padding-right: 2vw;
 }
 #links_div li {
   display: inline;
+  color: white;
   margin-right: 1vw;
 }
 .link_item{
-  color: white;
   display: inline-block;
   vertical-align: middle;
   padding-right: 5px;
@@ -131,6 +129,7 @@ h1 {
   }
   #My_Photo{
     height: 120px;
+    padding-top: 70px;
   }
   .link_item{
     font-size: 20px;
