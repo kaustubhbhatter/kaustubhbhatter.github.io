@@ -7,8 +7,9 @@ h1 {
 	font-size: 6vh;
 	color: #FBFBFB;
 	text-align: center;
-	padding-top: 6%;
+	padding-top: 15vh;
   margin: 0;
+  vertical-align: middle;
 }
 
 .Other_Heads{
@@ -106,5 +107,12 @@ h1 {
 @media screen and (max-height: 500px){
   #Basic_Heading{
     font-size: 15px;
+  }
+  .Other_Heads{
+    height: 200px;
+  }
+  h1{
+    padding-top: 80px;
+    font-size: 30px;
   }
 }
