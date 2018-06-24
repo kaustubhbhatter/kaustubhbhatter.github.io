@@ -37,7 +37,7 @@ h1 {
 }
 
 #My_Photo{
-	padding-top: 8%;
+	padding-top: 5%;
 	width: auto;
 	height: 25vh;
 }
@@ -49,6 +49,26 @@ h1 {
   font-size: 3vh ;
   color: #d3d3d3;
   font-family: Times New Roman;
+}
+#links_div{
+  position: relative;
+  text-align: center;
+  padding-right: 2vw;
+}
+#links_div li {
+  display: inline;
+  margin-right: 1vw;
+}
+.link_item{
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+  font-size: 3.5vh;
+}
+
+.link_item a{
+  color: white;
 }
 
 .topnav {
@@ -111,6 +131,9 @@ h1 {
   }
   #My_Photo{
     height: 120px;
+  }
+  .link_item{
+    font-size: 20px;
   }
   h1{
     font-size: 30px;
