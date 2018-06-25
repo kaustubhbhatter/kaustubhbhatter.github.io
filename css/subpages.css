@@ -25,7 +25,7 @@ h1 {
 	width: 100%;
   position: relative;
 	text-align: center;
-	font-size: 20px;
+	font-size: 3vh;
 	font-family: Times New Roman;
   background-image: url('background.jpg');
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ h1 {
 }
 
 @media screen and (max-height: 500px){
-  #Basic_Heading{
+  .Basic_Heading{
     font-size: 15px;
   }
   .Other_Heads{
