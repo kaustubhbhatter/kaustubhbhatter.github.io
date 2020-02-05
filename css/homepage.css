@@ -38,7 +38,8 @@ h1 {
 #My_Photo{
 	padding-top: 15vh;
 	height: 25vh;
-	border_radius: 40%
+	width: auto;
+	border_radius: 40%;
 }
 
 
