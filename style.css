@@ -620,8 +620,15 @@ select.form-control {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: var(--space-16);
-  padding-left: var(--space-16);
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 10vh;
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 48vw;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1685,6 +1692,40 @@ section {
 }
 
 /* Contact Section */
+
+@media (max-width: 480px) {
+  .contact-info {
+    flex-direction: column !important;
+    align-items: left !important;
+    gap: 10vw; /* less gap for vertical stack */
+    width: 100%;
+  }
+  
+  .contact-item {
+    width: 100%;
+/*    justify-content: center;*/
+    flex-direction: row; /* keep icon/text side-by-side */
+    text-align: left;
+    padding: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .contact-content {
+  display: flex;            /* Change from grid to flex */
+  flex-direction: column;   /* Stack rows vertically */
+  align-items: left !important;      /* Center all children horizontally */
+  width: 100%;
+  }
+
+  .contact-social {
+  display: flex;
+  flex-direction: row !important;
+  gap: var(--space-12);
+  margin-top: var(--space-32); /* more space below the contact info row */
+  }
+
+}
+
 .contact {
   background: var(--color-surface);
 }
@@ -1782,11 +1823,12 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
   body {
-    padding-top: 70px;
+    padding-top: 10vh;
   }
 
   .navbar {
     height: 70px;
+    padding-right: 5vw;
   }
 
   :root {
@@ -1799,6 +1841,11 @@ section {
 
   .hero {
     min-height: calc(100vh - 70px);
+  }
+
+  .hero-text{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
   .nav-menu {
