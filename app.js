@@ -283,7 +283,7 @@
         
         // Initialize theme
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        let currentTheme = prefersDark ? 'dark' : 'light';
+        let currentTheme ='light';
         
         applyTheme(currentTheme);
         
