@@ -72,7 +72,7 @@
         // Hero buttons navigation
         heroButtons.forEach(function(button) {
             button.addEventListener('click', function(e) {
-                e.preventDefault();
+                // e.preventDefault();
                 const href = this.getAttribute('href');
                 
                 if (href && href.startsWith('#')) {
@@ -283,7 +283,7 @@
         
         // Initialize theme
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        let currentTheme ='light';
+        let currentTheme = 'light';
         
         applyTheme(currentTheme);
         
