@@ -448,6 +448,18 @@ pre code {
   background: var(--color-secondary);
 }
 
+.btn--resume {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.btn--resume:hover {
+  background: var(--color-secondary);
+}
+
+
+
 .btn--sm {
   padding: var(--space-4) var(--space-12);
   font-size: var(--font-size-sm);
